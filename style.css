@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+}
+
+.motherContainer{
+    background-color: azure;
+    display: grid;
+    margin: 2.5rem 5rem ;
+}
+
+.motherContainer h3{
+    background-color: rgb(25, 160, 160);
+    text-align: center;
+    padding: 1rem;
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.motherContainer .firstChild{
+    /* background-color: aquamarine; */
+    display: grid;
+    grid-template-columns: 30% 1fr;
+    gap: 1rem;
+}
+
+.motherContainer .grandChild1{
+    display: grid;
+    gap: 1rem;
+}
+.motherContainer .grandChild1 .hero{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    background-color:yellowgreen;
+    height: 20vh;
+    color: white;
+    font-size: 1.5rem;
+    
+}
+.motherContainer .grandChild1 .sideBar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: pink;
+    height: 40vh;
+    color: white;
+    font-size: 1.5rem;
+
+}
+.motherContainer .grandChild2{
+    display: grid;
+    gap: 1rem;
+}
+
+.motherContainer .grandChild2 .mainContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(108, 255, 130);
+    height: 40vh;
+    color: white;
+    font-size: 1.5rem;
+}
+.motherContainer .grandChild2 .extraContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 0, 234);
+    height: 20vh;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.motherContainer .secondChild{
+    display: grid;
+    grid-template-columns: 1fr 30%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.motherContainer .secondChild .relatedImages{
+    background-color: blueviolet;
+    text-align: center;
+    padding: 1rem 0 1rem 0;
+     color: white;
+    font-size: 1.5rem;
+
+}
+.motherContainer .secondChild .relatedPosts{
+    background-color: brown;
+    text-align: center;
+    padding: 1rem 0 1rem 0;
+    color: white;
+    font-size: 1.5rem;
+
+}
+
+footer{
+    background-color: rgb(151, 97, 106);
+    padding: 1rem 0 1rem 0;
+    text-align: center;
+    color: white;
+    font-size:1.5rem ;
+}
+
